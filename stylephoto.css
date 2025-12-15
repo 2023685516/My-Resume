@@ -1,0 +1,32 @@
+
+.datetime-fixed {
+  position: absolute;
+  right: 30px;
+  top: 120px;
+  font-size: 13px;
+  color: #8f5656;
+  z-index: 999;
+}
+
+body {
+    background-image: url("backgrounddd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+        .home-link img:hover {
+            transform: scale(1.2);
+            transition: 0.3s ease;
+            cursor: pointer;
+            opacity: 0.8;
+        }
+
+.photo {
+    width: 140px;
+    border-radius: 10px;
+    object-fit: contain;
+    border: 4px solid #b08f8f;
+    padding: 5px;
+    margin: 6px;
+}
